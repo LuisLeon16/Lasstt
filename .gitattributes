@@ -1,6 +1,11 @@
-*.php linguist-detectable=true
+# Asegurar que los archivos PHP sean detectados como PHP
+/Sistema/**/*.php linguist-language=PHP
+/Sistema/**/*.php linguist-detectable=true
+/Sistema/** linguist-vendored=false
+
+# Asegurar que HTML también sea detectable (aunque ya lo es por defecto)
 *.html linguist-detectable=true
-*.php linguist-language=PHP
-/php/* linguist-vendored=false
-gem install github-linguist
-github-linguist
+
+# También puedes incluir estos opcionales si usas otros lenguajes
+*.css linguist-detectable=true
+*.js linguist-detectable=true
