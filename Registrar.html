@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Las 3 metaetiquetas anteriores deben ir primero en la cabeza; cualquier otro contenido principal debe venir después de estas etiquetas-->
+
+	<title>LASSTT</title>
+
+	<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/estilos.css"/>
+
+
+
+		<link rel="shortcut icon" href="img/Lasstt.ico" />
+</head>
+
+<body>
+
+</div><!-- CONTENEDOR BOTON_FLOTANTE -->
+<div id="BarraHTML">
+  <div id="BarraIMG">
+	<a href="index.html"><img src="img/logo01.png"></a></div></div>
+<br>
+	<div class="Contenedor_Formulario2">
+		  <h1>Registro de clientes</h1><br>
+                <form name="RClientes" style="text-align: center;" action="Sistema/RegistroClientes.php" method="POST" onsubmit="">
+                    <div class="col-lg-12 col-md-12 col-sm-12"> 
+                    <b><label for "txtNom">Nombre(s):</label></b>
+                    <br>
+                    <input type="text" name="txtNom" class="form-control" size="50" maxlength="25" required value="" 
+                    placeholder="Digite su nombre" autocomplete="off">
+                    <br>
+                    <b><label for "txtApe">Apellido(s):</label></b>
+                    <br>
+                        <input type="text" class="form-control" name="txtApe" size="50" maxlength="25" required value="" 
+                    placeholder="Digite su apellido" autocomplete="off">
+                    <br>
+                    <b><label for "txtMail">Correo electr&oacute;nico:</label></b>
+                    <br>
+                        <input type="email" class="form-control" name="txtMail" size="50" maxlength="75" required value="" 
+                    placeholder="Digite su correo" autocomplete="off">
+                    <br>
+                    <b><label for "txtClave">Contraseña:</label></b>
+                    <br>
+                    <input type="password" class="form-control" name="txtClave" size="50" maxlength="12" required title="Clave muy facil"
+                    placeholder="Digite una contraseña">
+                     <br>
+                     <b><label for "txtCod">C&oacute;digo postal:</label></b>
+                    <br>
+                        <input type="text" class="form-control" required name="txtCod" size="50" maxlength="25" value="" 
+                    placeholder="Digite su código postal" autocomplete="off">
+                    <br>
+                    <b><label for "txtTel">Tel&eacute;fono:</label></b>
+                    <br>
+                        <input type="telefono" class="form-control" name="txtTel" size="50" maxlength="9" required placeholder="Digite su teléfono"
+                    pattern="[0-9]{4}-[0-9]{4}+" title="Tel no valido">
+                    <br>
+                    
+                    <b><label for "txtDir">Direcci&oacute;n:</label></b>
+                    <br>
+                        <textarea name="txtDir" required  class="form-control" size="50" rows="4" cols="50" value="" 
+                    placeholder="Digite su dirección" autocomplete="off"></textarea>
+                        <br>
+                        <br>
+                    <input type="submit" class="btn btn-success" name="btnRegistrar" value="Registrarse">
+                    <input type="reset" class="btn btn-danger"  onclick="history.back()" name="btnCancelar" value="Cancelar"><br><br><br>
+                </form>
+	</div><!-- CONTENEDOR_FORMULARIO -->
+	<div class="footer">
+		<h2>&copy; Copyright 2020 by <a href="index.html">LASSTT</a> ·  All Rights reserved  ·  contacto@lasstt.com</h2>
+	</div><!-- FOOTER -->
+</body>
+</html>

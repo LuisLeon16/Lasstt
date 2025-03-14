@@ -1,0 +1,62 @@
+﻿.bgfull{
+    width : 1000px;
+    height: 650px;
+}
+
+.bgform-register {
+    width: 50%;
+    height: 75%;
+    background: #1B100E;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 50%;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control {
+    width: 50%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: "calibri";
+    font-size: 18px;
+}
+
+
+.form-register .botons {
+    width: 50%;
+    background: #C30000;
+    border: none;
+    padding: 1px;
+    color: white;
+    margin: 450px 0;
+    font-size: 16px;
+}
+
+    .form-register .botons:hover {
+        background: rgba(215, 76, 76,0.3);
+    }
+
+.bgform-register a {
+   
+    text-decoration: none;
+}
+.input-register{
+   margin-left: 25%;
+}
+
+#name{
+     margin-left: 25%;
+}
+
+::selection { background: yellow; }
