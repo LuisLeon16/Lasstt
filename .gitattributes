@@ -1,2 +1,6 @@
 *.php linguist-detectable=true
 *.html linguist-detectable=true
+*.php linguist-language=PHP
+/php/* linguist-vendored=false
+gem install github-linguist
+github-linguist
